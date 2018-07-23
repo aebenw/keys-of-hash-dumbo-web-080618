@@ -5,6 +5,6 @@ class Hash
      each do |k, v|
        arr << v 
      end
+     arr
   end
-  arr
 end
