@@ -2,7 +2,7 @@ require "pry"
 class Hash
   def keys_of(arguments)
    
-    hasharguments
+    hash.key 
      binding.pry
   end
 end
