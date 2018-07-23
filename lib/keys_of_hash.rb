@@ -1,7 +1,7 @@
 require "pry"
 class Hash
-  def keys_of(arguments)
-     p arguments.values 
+  def keys_of(*arguments)
+     arguments
     
   end
 end
