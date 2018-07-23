@@ -7,5 +7,4 @@ class Hash
         *k 
       end
      end
-  end
 end
