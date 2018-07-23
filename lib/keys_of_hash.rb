@@ -4,9 +4,8 @@ class Hash
      arr = []
      each do |k, v|
        if v == arguments
-       arr << k 
+        *k 
       end
      end
-     arr
   end
 end
