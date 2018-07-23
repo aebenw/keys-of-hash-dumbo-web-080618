@@ -1,9 +1,10 @@
 require "pry"
 class Hash
   def keys_of(*arguments)
+     arr = []
      each do |k, v|
-       k
+       arr << v 
      end
-    
   end
+  arr
 end
